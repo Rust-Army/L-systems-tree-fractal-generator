@@ -1,4 +1,5 @@
 /*
+    Ideas for what characters can mean:
     F -- draws straight line
     B -- draws right curve line
     C -- draws left curve line

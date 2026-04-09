@@ -8,8 +8,6 @@ use std::collections::HashMap;
 pub fn construct_string(init_string: &String, grammar_map: &HashMap<char, String>, iterations: i32) -> String {
     let mut tmp = init_string.to_string();
 
-    // let nts: Vec<&str> = grammar_map.keys().copied().collect();
-
     for _ in 0..iterations {
         let mut constructed_str = String::new();
 
